@@ -1,0 +1,20 @@
+21.	FC Schalke 04		DE1	2135.26
+22.	CSKA Moskva		RU1	2116.52
+23.	SSC Napoli		IT1	2113.64
+24.	Everton FC		UK1	2106.51
+25.	Bayer Leverkusen		DE1	2102.60
+26.	PSV Eindhoven		NL1	2101.78
+27.	Anzhi Machachkala		RU1	2091.27
+28.	Inter Milan		IT1	2086.48
+29.	Spartak Moskva		RU1	2081.76
+30.	Olympique Lyon		FR1	2074.20
+31.	Olympiakos Piraeus		GR1	2073.82
+32.	AC Milan		IT1	2073.30
+33.	AS Roma		IT1	2071.44
+34.	Hannover 96		DE1	2066.72
+35.	Lokomotiv Moskva		RU1	2062.73
+36.	Rubin Kazan		RU1	2061.68
+37.	Red Bull Salzburg		AT1	2061.47
+38.	Lazio Roma		IT1	2059.16
+39.	Ajax Amsterdam		NL1	2058.36
+40.	Eintracht Frankfurt		DE1	2057.18

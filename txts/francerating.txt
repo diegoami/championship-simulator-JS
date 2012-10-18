@@ -1,0 +1,20 @@
+1.	Paris Saint-Germain	FR1		2196.78
+2.	Olympique Lyon	FR1		2074.20
+3.	Olympique Marseille	FR1		2052.09
+4.	OSC Lille	FR1		2030.20
+5.	Girondins Bordeaux	FR1		2008.08
+6.	Montpellier HSC	FR1		2007.64
+7.	AS Saint-Etienne	FR1		1968.58
+8.	Stade Rennes	FR1		1953.12
+9.	Toulouse FC	FR1		1947.09
+10.	FC Lorient	FR1		1921.88
+11.	Valenciennes FC	FR1		1903.39
+12.	OGC Nice	FR1		1899.27
+13.	SC Bastia	FR1		1898.91
+14.	Stade Reims	FR1		1859.91
+15.	AS Nancy Lorraine	FR1		1857.56
+16.	Evian Thonon Gaillard FC	FR1		1857.45
+17.	AC Ajaccio	FR1		1849.68
+18.	FC Sochaux	FR1		1814.68
+19.	Stade Brest	FR1		1800.73
+20.	AC Troyes	FR1		1798.03

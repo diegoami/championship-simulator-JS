@@ -1,0 +1,20 @@
+1.	FC Bayern München	DE1		2336.17
+2.	Borussia Dortmund	DE1		2252.99
+3.	FC Schalke 04	DE1		2135.26
+4.	Bayer Leverkusen	DE1		2102.60
+5.	Hannover 96	DE1		2066.72
+6.	Eintracht Frankfurt	DE1		2057.18
+7.	VfB Stuttgart	DE1		2056.28
+8.	Werder Bremen	DE1		2038.08
+9.	1899 Hoffenheim	DE1		2019.88
+10.	Hamburger SV	DE1		2017.53
+11.	Mönchengladbach	DE1		2012.81
+12.	1. FC Nürnberg	DE1		1993.23
+13.	FSV Mainz 05	DE1		1990.26
+14.	Fortuna Düsseldorf	DE1		1971.56
+15.	VfL Wolfsburg	DE1		1970.77
+16.	SC Freiburg	DE1		1966.92
+17.	SpVgg Greuther Fürth	DE1		1936.12
+18.	FC Augsburg	DE1		1924.41
+1.	1. FC Kaiserslautern	DE2		1932.48
+2.	Hertha BSC Berlin	DE2		1899.47

@@ -1,0 +1,20 @@
+1.	FC Barcelona		ES1	2391.52
+2.	Real Madrid		ES1	2360.90
+3.	FC Bayern München		DE1	2336.17
+4.	Shakhtar Donezk		UA1	2264.29
+5.	Manchester City		UK1	2261.23
+6.	Manchester United		UK1	2260.09
+7.	Borussia Dortmund		DE1	2252.99
+8.	Chelsea FC		UK1	2234.29
+9.	Atletico Madrid		ES1	2216.64
+10.	Paris Saint-Germain		FR1	2196.78
+11.	Juventus Torino		IT1	2196.74
+12.	FC Porto		PT1	2180.69
+13.	Arsenal FC		UK1	2180.47
+14.	Zenit St. Petersburg		RU1	2163.33
+15.	Dinamo Kiev		UA1	2152.68
+16.	Tottenham Hotspur		UK1	2150.74
+17.	Liverpool FC		UK1	2150.47
+18.	FC Valencia		ES1	2149.79
+19.	Malaga CF		ES1	2137.65
+20.	Benfica Lisboa		PT1	2135.80

@@ -9,12 +9,13 @@
 
 
 
-function printInClassifica(championShip) {
+function printInClassifica(championShip, league) {
     championShip.sortTeams();
     var elClassifica = document.getElementById("classifica");
     var elClassBody = elClassifica.getElementsByTagName("tbody")[0];
     var elClassTrs = elClassBody.getElementsByTagName("tr");
     var teams = championShip.getTeams();
+
 
     for (var teamIndex = 0; teamIndex < 20; teamIndex++) {
         var currentTeam = teams[teamIndex];
@@ -23,17 +24,18 @@ function printInClassifica(championShip) {
         for (var column = 0; column  < allColumns.length; column++) {
             allColumns[column].innerHTML = "";
         }
-        allColumns[1].innerHTML = teamIndex+1;
-        allColumns[2].innerHTML = currentTeam.teamName;
-        allColumns[3].innerHTML = currentTeam.points.toString();
-        allColumns[4].innerHTML = currentTeam.played;
+        allColumns[0].innerHTML = teamIndex+1;
+        allColumns[1].innerHTML = currentTeam.teamName;
+        allColumns[2].innerHTML = currentTeam.points.toString();
+        allColumns[3].innerHTML = currentTeam.played;
 
-        allColumns[5].innerHTML = currentTeam.wins.toString();
-        allColumns[6].innerHTML = currentTeam.draw.toString();
-        allColumns[7].innerHTML = currentTeam.lost.toString();
-        allColumns[8].innerHTML = currentTeam.goalsmade.toString();
-        allColumns[9].innerHTML = currentTeam.goalstaken.toString();
-        allColumns[10].innerHTML = currentTeam.goalsdiff().toString();
+        allColumns[4].innerHTML = currentTeam.wins.toString();
+        allColumns[5].innerHTML = currentTeam.draw.toString();
+        allColumns[6].innerHTML = currentTeam.lost.toString();
+        allColumns[7].innerHTML = currentTeam.goalsmade.toString();
+        allColumns[8].innerHTML = currentTeam.goalstaken.toString();
+        allColumns[9].innerHTML = currentTeam.goalsdiff().toString();
+        allColumns[10].innerHTML = league.getTeamElo(currentTeam.teamName)
 
     }
 }

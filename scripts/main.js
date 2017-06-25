@@ -39,7 +39,7 @@ function executeRoundTick() {
         if (currentRound.isFinished() && (!currentRound.isFinalized())) {
             currentRound.finalizeResult();
 
-            printInClassifica(championShip);
+            printInClassifica(championShip,currentLeague);
         }
     }
 
@@ -91,7 +91,7 @@ function main(leagueName) {
 
         resetTables();
         printRoundsTeams(twentyBergerTable);
-        printInClassifica(championShip);
+        printInClassifica(championShip,currentLeague);
 
         executeRoundTick();
         go();

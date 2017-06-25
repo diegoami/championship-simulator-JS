@@ -13,9 +13,9 @@ def process_league(jsonfile,remotedir, remotedir2=None):
     if (len(ratings) < 20) and remotedir2:
         ratings2 = retrieve_cells(remotedir2,20-len(ratings))
         ratings.update(ratings2)
-
-    with open('../json/'+jsonfile+'.json','w') as handle:
-        print(json.dumps(ratings),file=handle)
+    if (len(ratings) == 20):
+        with open('../json/'+jsonfile+'.json','w') as handle:
+            print(json.dumps(ratings),file=handle)
 
 
 def retrieve_cells(remotedir,maxq=20):
@@ -33,8 +33,9 @@ def retrieve_cells(remotedir,maxq=20):
 
 def process_league_uefa(jsonfile,remotedir,start, end):
     ratings = retrieve_cells_uefa(remotedir,start,end)
-    with open('../json/'+jsonfile+'.json','w') as handle:
-        print(json.dumps(ratings),file=handle)
+    if (len(ratings) == 20):
+        with open('../json/'+jsonfile+'.json','w') as handle:
+            print(json.dumps(ratings),file=handle)
 
 
 def retrieve_cells_uefa(remotedir,start, end):
@@ -54,8 +55,9 @@ def retrieve_cells_uefa(remotedir,start, end):
 
 def process_countries(jsonfile,country_site,start, end):
     ratings = retrieve_cells_countries(country_site,start,end)
-    with open('../json/'+jsonfile+'.json','w') as handle:
-        print(json.dumps(ratings),file=handle)
+    if (len(ratings) == 20):
+        with open('../json/'+jsonfile+'.json','w') as handle:
+            print(json.dumps(ratings),file=handle)
 
 
 def retrieve_cells_countries(country_site,start, end):
